@@ -1,9 +1,9 @@
 on:
   rss:
     url:
-      - https://rsshub.app/1x
-      - https://rsshub.app/35photo/new
-      - https://rsshub.app/35photo/map
+      - https://rsshub.app/gcores/category/articles
+      - https://rsshub.app/qdaily/column/59
+      - https://rsshub.app/guokr/scientific
 jobs:
   request:
     name: Make a HTTP Request
