@@ -2,8 +2,15 @@ on:
   rss:
     url:
       - https://rsshub.app/gcores/category/articles
-      - https://rsshub.app/qdaily/column/59
       - https://rsshub.app/guokr/scientific
+      - https://rsshub.app/sciencenet/blog
+      - https://rsshub.app/sspai/index
+      - https://rsshub.app/chaoli/sci-fi
+      - https://rsshub.app/chaoli/tech
+      - https://rsshub.app/chaoli/physics
+      - https://rsshub.app/dailyart/zh
+      - https://rsshub.app/smzdm/haowen/1
+      - https://rsshub.app/mubu/explore/16/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0
 jobs:
   request:
     name: Make a HTTP Request
@@ -19,5 +26,6 @@ jobs:
               "type":"url",
               "content":"${{ on.rss.outputs.link }}",
               "title": "${{ on.rss.outputs.title }}",
-              "folder":"API"
+              "tags":["api"],
+              "folder":"apifeeds"
             }
