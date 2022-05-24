@@ -17,20 +17,6 @@ on:
       - https://rsshub.app/bilibili/user/video/402780815
       - https://rsshub.app/bilibili/user/video/38294246
       - https://rsshub.app/bilibili/user/video/29959830
-      - https://rsshub.app/zhubai/lengzi
-      - https://rsshub.app/zhubai/youmujiaoshi
-      - https://rsshub.app/zhubai/honyakusha
-      - https://rsshub.app/zhubai/robinpeng
-      - https://rsshub.app/zhubai/nsjkr
-      - https://rsshub.app/zhubai/photup
-      - https://rsshub.app/zhubai/yeyouchuan
-      - https://rsshub.app/zhubai/matsuri
-      - https://rsshub.app/zhubai/microhoo
-      - https://rsshub.app/zhubai/sleep9ull
-      - https://rsshub.app/zhubai/luzhnan
-      - https://rsshub.app/zhubai/motionlesswander
-      - https://rsshub.app/zhubai/nsblvd
-      - https://rsshub.app/zhubai/shyrz
 jobs:
   request:
     name: Make a HTTP Request
