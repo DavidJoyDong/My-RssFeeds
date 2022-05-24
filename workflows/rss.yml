@@ -2,7 +2,7 @@ on:
   rss:
     url:
       - https://rsshub.app/gcores/category/articles
-      - https://rsshub.app/sciencenet/blog
+      - https://rsshub.app/guokr/scientific
       - https://rsshub.app/sspai/index
       - https://rsshub.app/chaoli/sci-fi
       - https://rsshub.app/chaoli/tech
